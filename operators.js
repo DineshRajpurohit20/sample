@@ -19,3 +19,16 @@ c /= 4; // c = c / 4
 console.log("After division assignment: " + c); // 11
 c %= 3; // c = c % 3
 console.log("After modulus assignment: " + c); // 2
+
+console.log("Compartision operators")
+//comparison operators
+var x = 10;
+var y = 20;
+console.log("Equal to: " + (x == y)); // false
+console.log("Not equal to: " + (x != y));
+console.log("Greater than: " + (x > y)); // false
+console.log("Less than: " + (x < y)); // true
+console.log("Greater than or equal to: " + (x >= y)); // false
+console.log("Less than or equal to: " + (x <= y)); // true
+
+
