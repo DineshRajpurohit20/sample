@@ -32,4 +32,13 @@ console.log("Less than: " + (x < y)); // true
 console.log("Greater than or equal to: " + (x >= y)); // false
 console.log("Less than or equal to: " + (x <= y)); // true
 
+//logical operators
+console.log("Logical operators")
+var p = 10;
+var q = 20;
+console.log("Logical AND: " + (p < 10 && q > 20)); // false
+console.log("Logical OR: " + (p < 20 || q < 10)); // true
+console.log("Logical NOT: " + !(p < 20)); // false
+console.log(!(p === 20)); // true
+
 
