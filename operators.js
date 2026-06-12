@@ -8,6 +8,7 @@ console.log("Division: " + (a / b)); // 2
 console.log("Modulus: " + (a % b)); // 0
 
 //assignment operators
+console.log("Assignment operators")
 var c = 20;
 c += 5; // c = c + 5
 console.log("After addition assignment: " + c); // 25
@@ -20,8 +21,8 @@ console.log("After division assignment: " + c); // 11
 c %= 3; // c = c % 3
 console.log("After modulus assignment: " + c); // 2
 
-console.log("Compartision operators")
 //comparison operators
+console.log("Compartision operators")
 var x = 10;
 var y = 20;
 console.log("Equal to: " + (x == y)); // false
