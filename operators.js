@@ -41,4 +41,16 @@ console.log("Logical OR: " + (p < 20 || q < 10)); // true
 console.log("Logical NOT: " + !(p < 20)); // false
 console.log(!(p === 20)); // true
 
+//unitary operators
+console.log("Unitary operators")
+var d = 30;
+console.log(d++)
+console.log(d--)
+console.log(++d)
+console.log(--d)
+
+//ternary operator
+console.log("Ternary operator")
+var result = (a > b) ? "a is greater than b" : "a is not greater than b";
+console.log(result); // "a is greater than b"
 
