@@ -1,16 +1,13 @@
-//variable decleration using var
-var name = 'dinesh'
-console.log(name)
+// Declare a variable using var
+var name = "John"
+console.log(name) // Output: John
 
-//variable decleration using let
-let age= 25
-console.log(age)
+// Declare a variable using let
+let age = 30
+console.log(age) // Output: 30
 
-//variable decleration using const        
-const country = 'India'
-console.log(country)
-
-
-
+// Declare a constant variable using const
+const PI = "dinesh"
+console.log(PI) // Output: dinesh
 
 
