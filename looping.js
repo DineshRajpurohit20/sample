@@ -21,3 +21,14 @@ do {
     z + "x2" + " = " + (z*2));
     z++;
 } while (z <= 10);
+
+//do while loop
+console.log("Do while loop");
+
+let count = 6
+do {
+    console.log(count)
+    count++;
+} while (count <= 5)
+
+    console.log("outside of the loop")
