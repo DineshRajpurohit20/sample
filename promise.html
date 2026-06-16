@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+        const studentpromise =studentpromise
+        new promise (function(resolve,reject){
+            console.log("inside promise");
+            let success = false;
+            setTimeout(function(){
+                console.log("Inside setimeout");
+                if(success){
+                    console.log("Inside success");
+                    resolve("student reloaded successfully");
+                }else{
+                    console.log("Inside error");
+                    reject("student failed to load student");
+                }
+                resolve("student data is fetched")
+            },2000)
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
