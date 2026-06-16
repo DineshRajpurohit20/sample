@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="student" placeholder="Student Name">
+    <button onclick="saveStudent()">Save</button>
+    <button onclick="getData()">Get Data</button>
+    <p id="result"></p>
+
+    <script>
+        function saveStudent() {
+          let name = document.getElementById("student").value;
+            localStorage.setItem("student", name);
+        }
+
+        async function getData() {
+            try {
+                const studentName = await new Promise(function(resolve, reject) {
+                    setTimeout(function() {
+                        const name = localStorage.getItem("student");
+                        if (name) {
+                            resolve(name);
+                        } else {
+                            reject("No student found");
+                        }
+                    }, 2000);
+                });
+                document.getElementById("result").textContent = `Student Name: ${studentName}`;
+            } catch (error) {
+                document.getElementById("result").textContent = error;
+            }
+        }
+    </script>
+</body>
+</html>
